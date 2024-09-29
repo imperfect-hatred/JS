@@ -1,0 +1,36 @@
+@import "./variables.scss";
+
+li {
+  list-style-type: none;
+}
+.header {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  border-bottom: 1px solid $secondary-color;
+
+  &__navigation {
+    display: flex;
+    padding: 16px 24px;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    &--links {
+      display: flex;
+      gap: 20px;
+    }
+
+    &--action {
+      display: flex;
+      gap: 20px;
+      @media (min-width: $tablet-width) {
+        display: none;
+      }
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    display: none;
+  }
+}
