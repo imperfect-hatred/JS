@@ -44,7 +44,29 @@
 // );
 // //
 
-// задание 6
-const userText = prompt("Введите текст");
-const wordFromText = prompt("Какое слово найти?");
-//
+// // задание 6
+// const userText = prompt("Введите текст".trim());
+// const wordFromText = prompt("Какое слово найти?".trim());
+// const indexOfWord = userText.indexOf(wordFromText);
+// alert(`Ваш текст: ${userText.slice(0, indexOfWord+wordFromText.length)}`);
+// //
+
+// // задание 7
+// const javaScriptDescription =
+//   "JavaScript — мультипарадигменный язык программирования. Поддерживает объектно-ориентированный, императивный и функциональный стили. Является реализацией спецификации ECMAScript JavaScript обычно используется как встраиваемый язык для программного доступа к объектам приложений.";
+
+// const midSymbol = Math.floor(javaScriptDescription.length / 2);
+
+// console.log(javaScriptDescription.slice(0, midSymbol));
+
+// let res = javaScriptDescription.replaceAll("а", "а".toUpperCase());
+// console.log(res);
+
+// console.log(javaScriptDescription.replaceAll(" ", ""));
+
+// console.log(javaScriptDescription.repeat(3));
+
+// console.log(
+//   javaScriptDescription[Math.floor(javaScriptDescription.length / 2)]
+// );
+// //
